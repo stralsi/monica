@@ -16,7 +16,7 @@
     }
   ],
   "scripts": {
-    "postdeploy": "php artisan setup:production --force"
+    "postdeploy": "php artisan setup:production --force --timeout=0"
   },
   "env": {
     "APP_KEY": {
